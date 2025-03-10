@@ -1,0 +1,11 @@
+Product_ID,Product_Name,Category,Price,Avg_Daily_Sales,Current_Stock
+P001,Milk,Dairy,60,50,257
+P002,Bread,Bakery,40,49,281
+P003,Eggs,Dairy,90,39,223
+P004,Butter,Dairy,100,28,177
+P005,Cheese,Dairy,120,32,246
+P006,Rice,Grains,80,33,129
+P007,Tomato,Vegetables,30,25,311
+P008,Onions,Vegetables,25,22,113
+P009,Soap,Personal Care,50,29,161
+P010,Shampoo,Personal Care,90,33,129
