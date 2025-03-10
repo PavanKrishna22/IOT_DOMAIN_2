@@ -8,10 +8,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Load datasets
-foot_traffic = pd.read_csv("grocery_store_datasets/realistic_foot_traffic_dataset.csv")
-billing_info = pd.read_csv("grocery_store_datasets/updated_billing_info_dataset_realistic.csv")
-product_info = pd.read_csv("grocery_store_datasets/product_info_dataset.csv")
-sales_data = pd.read_csv("grocery_store_datasets/sales_dataset.csv")
+foot_traffic = pd.read_csv("realistic_foot_traffic_dataset.csv")
+billing_info = pd.read_csv("updated_billing_info_dataset_realistic.csv")
+product_info = pd.read_csv("product_info_dataset.csv")
+sales_data = pd.read_csv("sales_dataset.csv")
 
 # Preprocess dates
 sales_data['Date'] = pd.to_datetime(sales_data['Date'])
